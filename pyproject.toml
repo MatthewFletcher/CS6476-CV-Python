@@ -11,3 +11,8 @@ dependencies = [
     "pyqt6>=6.8.0",
     "scipy>=1.15.0",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+]

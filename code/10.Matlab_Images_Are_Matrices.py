@@ -21,9 +21,9 @@ cv2.line(green_with_line, (0, y_value), (green_channel.shape[1], y_value), (255,
 fig, ax = plt.subplots(1, 2, figsize=(15, 5))
 
 # Display the green channel with the horizontal line
-ax[0].imshow(green_with_line, cmap='gray')
+ax[0].imshow(green_with_line, cmap="gray")
 ax[0].set_title(f"Green Channel with Horizontal Line at y={y_value}")
-ax[0].axis('off')
+ax[0].axis("off")
 
 # Plot the pixel values underneath the line
 pixel_values = green_channel[y_value, :]
@@ -34,4 +34,3 @@ ax[1].set_ylabel("Pixel Value")
 
 plt.tight_layout()
 plt.show()
-

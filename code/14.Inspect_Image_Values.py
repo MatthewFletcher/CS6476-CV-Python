@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image using OpenCV
-img = cv2.imread('../images/dolphin.png')
+img = cv2.imread("../images/dolphin.png")
 
 # Convert the image from BGR to RGB for proper display
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -27,7 +27,7 @@ cv2.line(img_with_line, (0, y_value), (img_rgb.shape[1], y_value), (255, 255, 25
 
 ax[0].imshow(img_with_line)
 ax[0].set_title("Image with Horizontal Line")
-ax[0].axis('off')
+ax[0].axis("off")
 
 # Get the pixel values at the particular Y location
 row_values = image_array[y_value, :, :]
