@@ -5,6 +5,10 @@ import numpy as np
 def view_image(img: np.ndarray):
     """
     Pass in an image to view in a small window. Press any key to close the window
+
+    NOTE: When using breakpoints when this function is within the file, pycharm will stall. OR - sometimes it works just
+    fine. So if you have trouble with debugging, comment out the function in the script.
+    TODO: Fix above
     :param img: A numpy array. You can get this object from a cv.imread()
     :return:
     """
