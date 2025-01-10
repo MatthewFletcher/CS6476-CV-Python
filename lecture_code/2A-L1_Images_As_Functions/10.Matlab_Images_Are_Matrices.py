@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image using OpenCV
-image = cv2.imread("../images/peppers.jpg")
+image = cv2.imread("../../images/peppers.jpg")
 
 # Extract the green channel
 green_channel = image[:, :, 1]

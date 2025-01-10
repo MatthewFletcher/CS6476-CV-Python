@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image using OpenCV
-img = cv2.imread("../images/peppers.jpg")
+img = cv2.imread("../../images/peppers.jpg")
 
 # Convert the image from BGR to RGB for proper display
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
