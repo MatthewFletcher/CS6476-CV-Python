@@ -5,6 +5,7 @@ description = "Dependencies for CS6476 for UV instead of conda. "
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ipython>=8.31.0",
     "matplotlib>=3.10.0",
     "numpy<2.0",
     "opencv-python>=4.10.0.84",
