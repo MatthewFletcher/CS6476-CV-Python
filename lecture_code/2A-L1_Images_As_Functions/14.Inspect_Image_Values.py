@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image using OpenCV
-img = cv2.imread("../images/dolphin.png")
+img = cv2.imread("../../images/dolphin.png")
 
 # Convert the image from BGR to RGB for proper display
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
